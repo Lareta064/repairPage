@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Geometria';
+	src: url('./fonts/geometria.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('./geometria.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('./geometria.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('.geometria.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('.geometria.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('./fonts/geometria.svg#geometria') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Geometria-Bold';
+	src: url('.geometria-bold.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('.geometria-bold.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('.geometria-bold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('.geometria-bold.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('.geometria-bold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('.geometria-bold.svg#geometria-bold') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+
+@font-face {
+	font-family: 'Geometria-Medium';
+	src: url('./geometria-medium.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('./geometria-medium.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('./geometria-medium.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('./geometria-medium.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('./geometria-medium.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('./geometria-medium.svg#geometria-medium') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}

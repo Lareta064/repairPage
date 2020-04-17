@@ -1,0 +1,153 @@
+.header {
+	padding-top: 10px;
+	height: 100px;
+	background-color: #fff;
+
+	.modal-open {
+		color: @orange;
+	}
+
+	.contact-item--tel {
+		color: #222;
+	}
+
+	.page-button span:last-child {
+		@media(max-width:1199px) {
+			display: none;
+		}
+	}
+
+	.page-button span:first-child {
+		@media(max-width:1199px) {
+			margin-right: 0;
+		}
+	}
+
+	.page-button {
+		@media(max-width:1199px) {
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+	}
+}
+
+.header-content {
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+
+}
+
+.header-nav {
+	display: flex;
+
+
+	@media(max-width: 767px) {
+		position: fixed;
+		top: 70px;
+		right: 0;
+		width: 320px;
+		display: block;
+		padding-left: 40px;
+		padding-top: 40px;
+		transform: translateX(100%);
+		-webkit-transition: .5s;
+		-moz-transition: .5s;
+		-ms-transition: .5s;
+		-o-transition: .5s;
+		transition: .5s;
+	}
+}
+
+.header-nav.active {
+	transform: translateX(0%);
+	background-color: @orange;
+}
+
+.header-nav-item {
+	margin-right: 17px;
+	padding: 5px;
+	display: block;
+	color: #222;
+	transition: .3s;
+	font-family: 'Geometria-Medium';
+
+	@media(max-width:991px) {
+		margin-right: 6px;
+	}
+
+	@media(max-width:767px) {
+		margin-right: 0px;
+	}
+
+	&:hover {
+		color: @orange;
+	}
+
+}
+
+.contact-item {
+	display: block;
+	padding: 5px;
+	position: relative;
+	padding-left: 30px;
+}
+
+.modal-open {
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid @orange;
+}
+
+
+.header-contacts {
+	display: flex;
+	align-items: center;
+
+	@media(max-width:991px) {
+		display: none;
+		// position: fixed;
+		// top: 100px;
+		// right: 50px;
+		// transform: translateX(100%);
+	}
+
+}
+
+.mobile-contact {
+	display: none;
+
+	@media(max-width:991px) {
+		display: flex;
+	}
+}
+
+.contact-tg {
+	font-size: 26px;
+	margin-right: 35px;
+	color: #30a6dd;
+
+	@media(max-width:1199px) {
+		display: none;
+	}
+}
+
+.contact-wrapper {
+	flex-direction: column;
+	display: flex;
+	font-size: 22px;
+	align-items: flex-end;
+
+	@media(max-width:1199px) {
+		font-size: 18px;
+	}
+
+
+	.modal-open {
+		font-size: 16px;
+		width: fit-content;
+
+	}
+}
